@@ -1,7 +1,7 @@
 FROM ubuntu:20.04
 
 LABEL description = "GitHub Actions"
-LABEL mainteiner = "Andrea JM"
+LABEL mainteiner = "Andrea Juarez"
 LABEL version = "v1"
 
 RUN apt-get update
