@@ -6,3 +6,6 @@ docker build -t webapp:v1 .
 
 # Crear el contenedor 
 docker run -it -p 8080:8080 -v /workspace/ActionsDemo/docker:/docker --name webapp -h webapp webapp:v1
+
+# Comprobar test_arreglo (dentro de la carpeta pruebas)
+pytest
